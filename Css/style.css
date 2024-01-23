@@ -1,0 +1,33 @@
+.div1{
+    position: relative;
+}
+.img1{
+    width: 100%;
+    
+}
+
+ 
+.animation-block{
+    position: relative;
+}
+
+
+.img2{
+    display: inline-block;
+    position: absolute;
+   bottom: 0%;
+    right: 90px;
+    width: 300px;
+    animation-name:anme1;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+/* animation */
+
+@keyframes anme1{
+    from{right:0;}
+    to{right: 900px;px;}
+
+}
